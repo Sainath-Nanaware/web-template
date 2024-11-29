@@ -109,16 +109,38 @@
 }
 
 /* Middle box containt style */
-/* 
+
 .middle-box{
-    padding: 160px 100px;
-    background-color: burlywood;
+    background-color: white;
+    width : 100%;
+    height: 56vh;
+    display: flex;
+    justify-content: center;
 }
-.box{
-    background-color: #86f418;
-    padding: 50px 20px;
+
+.boxes{
+    background-color: white;
+    width:15vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.white-box{
-    background-color: #1f2937;
+.boxes img{
+    width:12vw;
+    height:26vh;
+    border-radius: 8px;
+    border:solid rgb(90, 132, 200);
 }
- */
+.boxes p{
+    margin-top: 10px;
+    text-align: center;
+    width:150px;
+}
+/* Grau backgrount containt */
+.grey-body{
+    background-color: #8a8c98;
+    width:100%;
+    height: 50vh;
+}
