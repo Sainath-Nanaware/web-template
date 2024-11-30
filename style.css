@@ -140,7 +140,65 @@
 }
 /* Grau backgrount containt */
 .grey-body{
-    background-color: #8a8c98;
+    background-color: #e5e7eb;
     width:100%;
-    height: 50vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grey-body p{
+    margin-left: 98px;
+    width:54vw;
+    font-size: 32px;
+    color: #1f2937;
+}
+.grey-body h3{
+    margin-left: 480px;
+}
+/* up-fotter styling */
+.up-fotter{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.blue-box{
+    background-color: #3882f6;
+    width:64vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+.text-containt{
+    color: white;
+    margin-left: 94px;
+    
+}
+.signup-button button{
+    margin-left: 180px;
+    padding: 5px 20px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: white;
+}
+
+/* fotter styling */
+.fotter{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height:15vh;
+    color: white;
+    background-color: #1f2937;
+}
+.fotter p{
+    margin-top: 30px;
 }
